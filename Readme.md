@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Александр Назаров](https://up.htmlacademy.ru/adaptive/21/user/463123).
-* Наставник: `Неизвестно`.
+* Наставник: `Маргарита 👩🏽‍🔬 Попова`.
 
 ---
 
