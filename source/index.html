@@ -1,12 +1,175 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Пинк</title>
   </head>
-  <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
-
+  <body class="page-body">
+    <header class="header">
+      <div class="header__wrapper">
+        <img class="header__logo logo" src="https://via.placeholder.com/150x150" alt="Логотип">
+        <nav class="header__navigation">
+          <ul class="header__navigation-menu navigation-menu">
+            <li class="navigation-menu__item">Главная</li>
+            <li class="navigation-menu__item">Фотографии</li>
+            <li class="navigation-menu__item">Конкурс</li>
+            <li class="navigation-menu__item">HTML Academy</li>
+          </ul>
+        </nav>
+        <button class="header__burger-button" aria-label="Открыть меню"></button>
+      </div>
+    </header>
+    <main class="page-main-content">
+      <section class="promo">
+        <h3 class="visually-hidden">Pink — Взгляните на жизнь иначе!</h3>
+        <div class="promo__wrapper">
+          <p class="promo__slogan slogan">
+            Взгляните на жизнь иначе!
+          </p>
+          <a class="promo__download-link" href="">Скачать приложение</a>
+          <img class="promo__image" src="https://via.placeholder.com/150x150" alt="Рекламное изображение">
+          <div class="promo__application-wrapper">
+            <ul class="promo__marketplace-list marketplace-list">
+              <li class="marketplace-list__item">
+                <img class="promo__marketplace-item-image promo__marketplace-item-image--appstore" src="https://via.placeholder.com/150x150" alt="Иконка AppStore">
+              </li>
+              <li class="marketplace-list__item">
+                <img class="promo__marketplace-item-image promo__marketplace-item-image--android" src="https://via.placeholder.com/150x150" alt="Иконка Android">
+              </li>
+              <li class="marketplace-list__item">
+                <img class="promo__marketplace-item-image promo__marketplace-item-image--microsoft" src="https://via.placeholder.com/150x150" alt="Иконка Microsoft Store">
+              </li>
+            </ul>
+            <p class="promo__avaliable-text">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+          </div>
+        </div>
+      </section>
+      <section class="features">
+        <h3 class="visually-hidden">Возможности приложения Pink</h3>
+        <div class="features__wrapper">
+          <p class="features__slogan slogan">Устали от серости мегаполиса? Нам есть, что вам предложить!</p>
+          <ul class="features__list">
+            <li class="features__item">
+              <img src="https://via.placeholder.com/150x150" alt="Скриншот из приложения" class="features__item-image">
+              <h3 class="features__item-heading">Поднимает настроение</h3>
+              <p class="features__item-description">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+            </li>
+            <li class="features__item">
+              <img src="https://via.placeholder.com/150x150" alt="Скриншот из приложения" class="features__item-image">
+              <h3 class="features__item-heading">Меняет мир вокруг</h3>
+              <p class="features__item-description">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+            </li>
+            <li class="features__item">
+              <img src="https://via.placeholder.com/150x150" alt="Скриншот из приложения" class="features__item-image">
+              <h3 class="features__item-heading">Заводит новых друзей</h3>
+              <p class="features__item-description">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+            </li>
+          </ul>
+          <img class="features__placeholder-image" src="https://via.placeholder.com/150x150" alt="Скриншот приложения с надписью «Всем привет»">
+        </div>
+      </section>
+      <section class="research">
+        <h3 class="visually-hidden">Исследование Pink</h3>
+        <div class="research__wrapper">
+          <p class="research__slogan">Эффект на 24 часа!</p>
+          <p class="research__text">Британские ученые провели исследования и доказали, что положительный эффект от использования приложения длится целые сутки!</p>
+          <a class="research__link" href="#">Узнать больше об исследовании</a>
+        </div>
+      </section>
+      <section class="reviews">
+        <h3 class="visually-hidden">Отзывы</h3>
+        <div class="reviews__wrapper">
+          <img class="reviews__image" src="https://via.placeholder.com/150x150" alt="Изображение кавычек">
+          <p class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+          <p class="reviews__author">Николай Петров</p>
+          <p class="reviews__author-info">25 лет, водитель трамвая</p>
+        </div>
+        <ul class="reviews__bullets">
+          <li class="reviews__bullet-button reviews__bullet-button--active"></li>
+          <li class="reviews__bullet-button"></li>
+          <li class="reviews__bullet-button"></li>
+        </ul>
+        <button class="reviews__arrow-button reviews__arrow-button--prev" aria-label="Предыдущий отзыв"></button>
+        <button class="reviews__arrow-button reviews__arrow-button--prev" aria-label="Следующий отзыв"></button>
+      </section>
+      <section class="price">
+        <h3 class="visually-hidden">Цены</h3>
+        <div class="price__wrapper">
+          <table class="price-table">
+            <tr class="price-table__row">
+              <th class="price-table__table-header price-table__table-header--empty">
+                <!-- пустая ячейка -->
+              </th>
+              <th class="price-table__table-header">
+                <span class="price-table__tariff-name">База</span>
+                <span class="price-table__tariff-price">1,99 USD</span>
+              </th>
+              <th class="price-table__table-header price-table__table-header--popular">
+                <span class="price-table__tariff-name">Стандарт</span>
+                <span class="price-table__tariff-price">3,99 USD</span>
+              </th>
+              <th class="price-table__table-header">
+                <span class="price-table__tariff-name">Анлим</span>
+                <span class="price-table__tariff-price">9,99 USD</span>
+              </th>
+            </tr>
+            <tr class="price-table__row">
+              <td class="price-table__table-data">Розовый фильтр</td>
+              <td class="price-table__table-data">✓</td>
+              <td class="price-table__table-data">✓</td>
+              <td class="price-table__table-data">✓</td>
+            </tr>
+            <tr class="price-table__row">
+              <td class="price-table__table-data">Смайлики</td>
+              <td class="price-table__table-data">x</td>
+              <td class="price-table__table-data">✓</td>
+              <td class="price-table__table-data">✓</td>
+            </tr>
+            <tr class="price-table__row">
+              <td class="price-table__table-data">Комментарии</td>
+              <td class="price-table__table-data">x</td>
+              <td class="price-table__table-data">x</td>
+              <td class="price-table__table-data">✓</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+      <section class="contacts">
+        <h3 class="visually-hidden">Контакты</h3>
+        <div class="contacts__wrapper">
+          <p class="contacts__slogan">Остались вопросы? Свяжитесь с нами!</p>
+          <div class="contacts__container">
+            <p class="contacts__action">Звоните:</p>
+            <a class="contacts__link" href="tel:+78125556666">+7 (812) 555-66-66</a>
+          </div>
+          <div class="contacts__container">
+            <p class="contacts__action">Пишите:</p>
+            <a class="contacts__link" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+          </div>
+          <div class="contacts__container">
+            <p class="contacts__action">Приезжайте в гости:</p>
+            <address class="contacts__link">ул. Большая Конюшенная, 19/8</address>
+          </div>
+          <div class="contacts__map">
+            <iframe src="#">
+            </iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <img class="footer__logo logo" src="https://via.placeholder.com/150x150" alt="Логотип">
+        <ul class="social-list">
+          <li class="social-list__item social-list__item--twitter"></li>
+          <li class="social-list__item social-list__item--facebook"></li>
+          <li class="social-list__item social-list__item--youtube"></li>
+        </ul>
+        <div class="footer__copyright">
+          <span class="footer__copyright-text">Разработано</span>
+          <img class="footer__copyright-logo" src="https://via.placeholder.com/150x150" alt="Логотип HTML Academy">
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
