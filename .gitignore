@@ -1,7 +1,5 @@
 .DS_Store
 .idea
-id_rsa
-id_rsa.pub
 .vscode
 *.ai
 *.log
